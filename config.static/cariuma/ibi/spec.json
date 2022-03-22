@@ -1,0 +1,158 @@
+{
+    "brand": "cariuma",
+    "description": "ibi",
+    "title": "Ibi",
+    "style": "low",
+    "gender": "both",
+    "toe": "round",
+    "type": "very-large",
+    "size": [
+        2000,
+        2000
+    ],
+    "dimensions": {
+        "$base": {
+            "size": [
+                2000,
+                2000
+            ],
+            "format": "png"
+        },
+        "medium": {
+            "size": [
+                1000,
+                1000
+            ],
+            "format": "png"
+        }
+    },
+    "tags": [],
+    "sizes": {
+        "it:female": {
+            "start": 19,
+            "end": 33,
+            "step": 2
+        },
+        "it:male": {
+            "start": 25,
+            "end": 47,
+            "step": 2
+        }
+    },
+    "frames": 24,
+    "faces": [
+        "side",
+        "top"
+    ],
+    "faces_m": {
+        "side": {
+            "frames": 24,
+            "thumbnail": true
+        },
+        "top": {
+            "frames": 1,
+            "thumbnail": true
+        }
+    },
+    "thumbnails": [{
+        "name": "top",
+        "face": "top",
+        "frame": 0
+    }, {
+        "name": "side-3",
+        "face": "side",
+        "frame": 3
+    }],
+    "hidden": [
+        "insole",
+        "shadow"
+    ],
+    "defaults": {
+        "sole": {
+            "color": "off_white",
+            "material": "green_e_v_a_crm",
+            "face": "side",
+            "frame": 0
+        },
+        "insole": {
+            "color": "cork",
+            "material": "insole_crm",
+            "hidden": true,
+            "face": "top",
+            "frame": 0
+        },
+        "upper": {
+            "color": "navy",
+            "material": "bamboo_knit_crm",
+            "face": "side",
+            "frame": 0
+        },
+        "laces": {
+            "color": "navy",
+            "material": "recycled_plastic_crm",
+            "face": "top",
+            "frame": 0
+        },
+        "shadow": {
+            "color": "default",
+            "hidden": true,
+            "material": "default"
+        }
+    },
+    "initials": {
+        "profile": "base",
+        "z_index": 6,
+        "properties": [
+            "white.style",
+            "black.style",
+            "green.style",
+            "gold.style"
+        ],
+        "$profiles": {
+            "base": {
+                "position": [
+                    500,
+                    1110
+                ],
+                "width": 800,
+                "height": 50,
+                "align": "center",
+                "vertical": "middle",
+                "image_rotation": 0,
+                "algorithm": "destination_over",
+                "font_family": "HelveticaNeue",
+                "font_weight": "Medium",
+                "font_size": 40,
+                "font_mode": "L"
+            },
+            "style::white": {
+                "color": "f0f1f0",
+                "blend_color": "666666"
+            },
+            "style::black": {
+                "color": "000000",
+                "blend_color": "666666"
+            },
+            "style::green": {
+                "color": "77c043",
+                "blend_color": "666666"
+            },
+            "style::gold": {
+                "color": "ada86e",
+                "blend_color": "666666"
+            }
+        },
+        "profiles": [
+            "base",
+            "style::white"
+        ]
+    },
+    "z_index": {
+        "shadow": 1,
+        "sole": 2,
+        "insole": 3,
+        "upper": 4,
+        "laces": 5,
+        "overlay": 3000
+    }
+}

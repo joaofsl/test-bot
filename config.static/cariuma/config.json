@@ -1,0 +1,40 @@
+{
+    "vendor": "cariuma",
+    "priorities": {
+        "shadow": 1,
+        "sole": 2,
+        "insole": 3,
+        "upper": 4,
+        "laces": 5
+    },
+    "alpha_composite": true,
+    "skip_colorize": [
+        "masks",
+        "overlay"
+    ],
+    "repositions": {
+        "ibi": "auto"
+    },
+    "skip_repositions": [
+        "overlay",
+        "top"
+    ],
+    "shadows": [
+        "shadow"
+    ],
+    "opacity_shadow": {
+        "default": {
+            "blur_radius": 1,
+            "alpha_divisor": 1
+        }
+    },
+    "static_dirs": [
+        "overlay"
+    ],
+    "skip_verify_defaults": [
+        "masks",
+        "overlay",
+        "static",
+        "swatches"
+    ]
+}

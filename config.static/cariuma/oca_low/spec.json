@@ -1,0 +1,164 @@
+{
+    "brand": "cariuma",
+    "description": "oca",
+    "title": "Oca",
+    "style": "low",
+    "gender": "both",
+    "toe": "round",
+    "type": "very-large",
+    "size": [
+        1500,
+        1500
+    ],
+    "dimensions": {
+        "$base": {
+            "size": [
+                1000,
+                1000
+            ],
+            "format": "png"
+        }
+    },
+    "tags": [
+        "no_masks"
+    ],
+    "sizes": {
+        "us_cariuma:female": [
+            19,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            35,
+            36,
+            37,
+            39
+        ],
+        "us_cariuma:male": [
+            19,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            31,
+            32,
+            33,
+            35,
+            36,
+            37,
+            39
+        ]
+    },
+    "available_scales": ["uk_cariuma", "eu"],
+    "frames": 1,
+    "faces": [
+        "front"
+    ],
+    "faces_m": {
+        "front": {
+            "frames": 1,
+            "thumbnail": true
+        }
+    },
+    "thumbnails": [{
+        "name": "front",
+        "face": "front",
+        "frame": 0
+    }],
+    "hidden": [],
+    "defaults": {
+        "base": {
+            "color": "off_white",
+            "material": "canvas",
+            "face": "front",
+            "frame": 0
+        }
+    },
+    "initials": {
+        "profile": "base",
+        "z_index": 2,
+        "properties": [
+            "white.style",
+            "black.style",
+            "green.style",
+            "gold.style"
+        ],
+        "$profiles": {
+            "base": {
+                "position": [
+                    310,
+                    610
+                ],
+                "width": 250,
+                "height": 35,
+                "viewport": [
+                    100,
+                    300,
+                    500,
+                    500
+                ],
+                "align": "center",
+                "vertical": "middle",
+                "image_rotation": 0,
+                "algorithm": "destination_over",
+                "font_family": "Lato",
+                "font_weight": "Black",
+                "font_size": 30,
+                "font_mode": "L"
+            },
+            "style::white": {
+                "color": "f0f1f0",
+                "blend_color": "666666"
+            },
+            "style::black": {
+                "color": "000000",
+                "blend_color": "666666"
+            },
+            "style::green": {
+                "color": "77c043",
+                "blend_color": "666666"
+            },
+            "style::gold": {
+                "color": "ada86e",
+                "blend_color": "666666"
+            },
+            "viewport::partial": {
+                "viewport": [
+                    100,
+                    300,
+                    500,
+                    500
+                ]
+            },
+            "viewport::full": {
+                "viewport": [
+                    0,
+                    0,
+                    1000,
+                    1000
+                ]
+            }
+        },
+        "profiles": [
+            "base",
+            "style::white"
+        ]
+    },
+    "z_index": {
+        "base": 1,
+        "overlay": 3000
+    }
+}

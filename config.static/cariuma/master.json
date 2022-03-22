@@ -1,0 +1,73 @@
+{
+    "brand": "cariuma",
+    "locales": [
+        "en_us"
+    ],
+    "order": {
+        "models": [
+            "ibi",
+            "oca_low"
+        ],
+        "parts": [
+            "base",
+            "insole",
+            "laces",
+            "upper",
+            "sole"
+        ],
+        "materials": {
+            "base": [
+                "canvas"
+            ],
+            "insole": [
+                "insole_crm"
+            ],
+            "laces": [
+                "recycled_plastic_crm"
+            ],
+            "sole": [
+                "green_e_v_a_crm"
+            ],
+            "upper": [
+                "bamboo_knit_crm"
+            ]
+        },
+        "colors": {
+            "canvas": [
+                "off_white",
+                "grey",
+                "rose",
+                "green",
+                "black",
+                "navy",
+                "sand",
+                "yellow",
+                "red",
+                "all_black",
+                "black",
+                "bungee_cord",
+                "illuminating",
+                "picante",
+                "pink",
+                "snow_white"
+            ],
+            "insole_crm": [
+                "cork"
+            ],
+            "recycled_plastic_crm": [
+                "navy",
+                "rose",
+                "sun_yellow"
+            ],
+            "green_e_v_a_crm": [
+                "off_white",
+                "stone_black"
+            ],
+            "bamboo_knit_crm": [
+                "navy",
+                "rose",
+                "sun_yellow"
+            ]
+        }
+    }
+}
